@@ -147,13 +147,12 @@ background-position:center;
 .hero-content{
 max-width:800px;
 padding:20px;
-    color:white;
 }
 
 .hero-content h1{
 font-size:75px;
 margin-bottom:20px;
-color:white;
+color:#d4af37;
 text-transform:uppercase;
 letter-spacing:3px;
 }
