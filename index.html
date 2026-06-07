@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor Haven Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+  <nav>
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </button>
+
+    <a href="#home" class="logo">
+        🍽 Flavor Haven
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="themeBtn" onclick="toggleTheme()">🌙</button>
+
+</nav>
+
+<ul id="mobileMenu" class="mobile-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+    <!-- HERO SECTION -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Delicious Food For Every Mood</h1>
+
+            <p>
+                Experience premium taste with fresh ingredients
+                and unforgettable dining moments.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+
+        </div>
+
+    </section>
+
+    <!-- MENU SECTION -->
+
+    <section id="menu">
+
+        <h2 class="title">Popular Dishes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+                <h3>Cheese Pizza</h3>
+                <p>$12</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+                <h3>Zinger Burger</h3>
+                <p>$9</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947">
+                <h3>BBQ Steak</h3>
+                <p>$18</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about">
+
+        <div>
+            <h2>About Us</h2>
+
+            <p>
+                Flavor Haven is a modern restaurant dedicated
+                to serving high-quality food with exceptional
+                customer service. Our chefs combine traditional
+                recipes with modern flavors to create unforgettable meals.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- GALLERY SECTION -->
+
+    <section id="gallery">
+
+        <h2 class="title">Food Gallery</h2>
+
+        <div class="gallery">
+
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1">
+
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4">
+
+            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1">
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section id="contact">
+
+        <h2 class="title">Book A Table</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" id="name" placeholder="Your Name">
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <input type="number" id="guests" placeholder="Number of Guests">
+
+            <button type="submit">
+                Reserve Now
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+   <footer>
+
+    <h3>🍽 Flavor Haven Restaurant</h3>
+
+    <p>
+        Bringing people together through food.
+    </p>
+
+    <div class="footer-line"></div>
+
+   <p class="copyright">
+    © 2026 Flavor Haven Restaurant | Designed & Developed by Muhammad Sami
+</p>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
